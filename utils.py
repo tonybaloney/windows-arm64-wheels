@@ -32,7 +32,7 @@ def annotate_wheels(packages):
     for index, package in enumerate(packages):
         print(index + 1, num_packages, package["name"])
         has_abi_none_wheel = False
-        has_free_threaded_wheel = False
+        has_win_arm64_wheel = False
         url = get_json_url(package["name"])
         response = SESSION.get(url)
         if response.status_code != 200:
@@ -45,19 +45,21 @@ def annotate_wheels(packages):
                 # The wheel filename is:
                 # {distribution}-{version}(-{build tag})?-{python tag}-{abi tag}-{platform tag}.whl
                 # https://packaging.python.org/en/latest/specifications/binary-distribution-format/#file-name-convention
-                abi_tag = download["filename"].removesuffix(".whl").split("-")[-2]
+                whl_spec = download["filename"].removesuffix(".whl").split("-")
+                abi_tag = whl_spec[-2]
+                platform_tag = whl_spec[-1]
 
                 if abi_tag == "none":
                     has_abi_none_wheel = True
 
-                if abi_tag.endswith("t") and abi_tag.startswith("cp31"):
-                    has_free_threaded_wheel = True
+                if "win_arm64" in platform_tag:
+                    has_win_arm64_wheel = True
 
-        package["wheel"] = has_free_threaded_wheel or has_abi_none_wheel
+        package["wheel"] = has_win_arm64_wheel or has_abi_none_wheel
 
         # Display logic. I know, I'm sorry.
         package["value"] = 1
-        if has_free_threaded_wheel:
+        if has_win_arm64_wheel:
             package["css_class"] = "success"
             package["icon"] = "🧵"
             package["title"] = "This package provides a free-threaded wheel."
