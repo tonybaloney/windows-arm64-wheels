@@ -2622,11 +2622,11 @@
   {
    "downloads": 34562076,
    "name": "lz4",
-   "wheel": false,
+   "wheel": true,
    "value": 1,
-   "css_class": "warning",
-   "icon": "\u2717",
-   "title": "This package has no wheel archives uploaded (yet!)."
+   "css_class": "success",
+   "icon": "\ud83e\uddf5",
+   "title": "This package provides a free-threaded wheel."
   },
   {
    "downloads": 34524146,
@@ -3241,5 +3241,5 @@
    "title": "This package provides pure Python wheels."
   }
  ],
- "last_update": "Tuesday, 01 April 2025, 10:07:40 UTC"
+ "last_update": "Wednesday, 02 April 2025, 10:07:09 UTC"
 }
