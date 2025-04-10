@@ -26,7 +26,17 @@ def get_json_url(package_name):
     return BASE_URL + "/" + package_name + "/json"
 
 
-def annotate_wheels(packages):
+def fetch_old_result():
+    url = "https://github.com/tonybaloney/windows-arm64-wheels/raw/refs/heads/gh-pages/results.json"
+    response = SESSION.get(url)
+    if response.status_code != 200:
+        print(" ! Skipping " + url)
+        return None
+    data = response.json()
+    return {d['name']: int(d.get('wheel_enabled', 0)) for d in data["data"]}
+
+
+def annotate_wheels(packages, old_packages):
     print("Getting wheel data...")
     num_packages = len(packages)
     for index, package in enumerate(packages):
@@ -71,6 +81,14 @@ def annotate_wheels(packages):
             package["css_class"] = "warning"
             package["icon"] = "\u2717"  # Ballot X
             package["title"] = "This package has no wheel archives uploaded (yet!)."
+
+        package['wheel_enabled'] = 0
+        if package["name"] in old_packages:
+            if old_packages[package["name"]] == 0 and has_win_arm64_wheel:
+                package['wheel_enabled'] = datetime.datetime.now().timestamp()
+        else:
+            if has_win_arm64_wheel:
+                package['wheel_enabled'] = datetime.datetime.now().timestamp()
 
 
 def get_top_packages():

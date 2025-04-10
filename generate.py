@@ -4,14 +4,20 @@ from utils import (
     get_top_packages,
     remove_irrelevant_packages,
     save_to_file,
+    fetch_old_result,
 )
 
-TO_CHART = 360
+TO_CHART = 1000
 
 
 def main(to_chart: int = TO_CHART) -> None:
+    # Fetch current status
+    old_packages = fetch_old_result()
+    if old_packages is None:
+        print(" ! Skipping old packages")
+        old_packages = {}
     packages = remove_irrelevant_packages(get_top_packages(), to_chart)
-    annotate_wheels(packages)
+    annotate_wheels(packages, old_packages)
     save_to_file(packages, "results.json")
     generate_svg_wheel(packages, to_chart)
 
