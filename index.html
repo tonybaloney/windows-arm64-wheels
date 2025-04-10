@@ -86,11 +86,17 @@
                 <p>This site was copied from the awesome HugoVK's free-threaded-wheels tracker.</p>
             </div>
             <div class="col-sm">
+                <label for="filter">Filter packages:</label>
+                <select id="filter" class="form-select" ng-model="selectedFilter" ng-options="filter.value as filter.label for filter in filters">
+                </select>
                 <div class="list">
                     <span ng-hide="packages">pythonwheels.com requires javascript to be enabled to display the list of packages.</span>
-                    <a ng-repeat="package in packages" ng-href="https://pypi.org/project/{{ package.name }}" class="btn btn-{{ package.css_class }}" ng-attr-title="{{package.title}}">
-                        <span ng-bind="package.name"></span>
-                        <span ng-bind="package.icon"></span>
+                    <a ng-repeat="package in packages | filter:filterByCssClass" 
+                        ng-href="https://pypi.org/project/{{ package.name }}" 
+                        class="btn btn-{{ package.css_class }}" 
+                        ng-attr-title="{{package.title}}">
+                            <span ng-bind="package.name"></span>
+                            <span ng-bind="package.icon"></span>
                     </a>
                 </div>
             </div>
@@ -104,22 +110,35 @@
 
     <script>
         var app = angular.module('app', [])
-        .controller('wheelCtrl', function ($scope, $http){
-            $http.get('results.json').then(function(res){
+        .controller('wheelCtrl', function ($scope, $http) {
+            $http.get('results.json').then(function (res) {
                 $scope.last_update = res.data.last_update;
                 $scope.packages = res.data.data;
-
-            // Calculate percentages
-            const totalPackages = $scope.packages.length;
-            const getPackageCount = (cssClass) => $scope.packages.filter(pkg => pkg.css_class === cssClass).length;
-
-            const successPercentage = (getPackageCount('success') / totalPackages) * 100;
-            const defaultPercentage = (getPackageCount('default') / totalPackages) * 100;
-            const todoPercentage = (getPackageCount('warning') / totalPackages) * 100;
-
-            document.getElementById('success-percent').innerText = `(${successPercentage.toFixed(0)}%)`;
-            document.getElementById('default-percent').innerText = `(${defaultPercentage.toFixed(0)}%)`;
-            document.getElementById('todo-percent').innerText = `(${todoPercentage.toFixed(0)}%)`;
+    
+                // Define filters
+                $scope.filters = [
+                    { value: '', label: 'All' },
+                    { value: 'success', label: 'Green (Windows ARM64 Wheels)' },
+                    { value: 'default', label: 'Uncoloured (Pure-Python Wheels)' },
+                    { value: 'warning', label: 'Orange (No Wheels Yet)' }
+                ];
+    
+                // Filter function
+                $scope.filterByCssClass = function (package) {
+                    return !$scope.selectedFilter || package.css_class === $scope.selectedFilter;
+                };
+    
+                // Calculate percentages
+                const totalPackages = $scope.packages.length;
+                const getPackageCount = (cssClass) => $scope.packages.filter(pkg => pkg.css_class === cssClass).length;
+    
+                const successPercentage = (getPackageCount('success') / totalPackages) * 100;
+                const defaultPercentage = (getPackageCount('default') / totalPackages) * 100;
+                const todoPercentage = (getPackageCount('warning') / totalPackages) * 100;
+    
+                document.getElementById('success-percent').innerText = `(${successPercentage.toFixed(0)}%)`;
+                document.getElementById('default-percent').innerText = `(${defaultPercentage.toFixed(0)}%)`;
+                document.getElementById('todo-percent').innerText = `(${todoPercentage.toFixed(0)}%)`;
             });
         });
     </script>
