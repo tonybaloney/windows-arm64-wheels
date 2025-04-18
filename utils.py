@@ -71,7 +71,7 @@ def annotate_wheels(packages, old_packages):
         package["value"] = 1
         if has_win_arm64_wheel:
             package["css_class"] = "success"
-            package["icon"] = "🧵"
+            package["icon"] = "💪"
             package["title"] = "This package provides a free-threaded wheel."
         elif has_abi_none_wheel:
             package["css_class"] = "default"
