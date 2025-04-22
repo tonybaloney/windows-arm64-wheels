@@ -114,7 +114,8 @@
             $http.get('results.json').then(function (res) {
                 $scope.last_update = res.data.last_update;
                 $scope.packages = res.data.data;
-    
+                $scope.selectedFilter = ''; // Default to All
+
                 // Define filters
                 $scope.filters = [
                     { value: '', label: 'All' },
