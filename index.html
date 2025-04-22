@@ -122,6 +122,7 @@
                     { value: 'default', label: 'Uncoloured (Pure-Python Wheels)' },
                     { value: 'warning', label: 'Orange (No Wheels Yet)' }
                 ];
+                $scope.selectedFilter = ''; // Default to All
 
                 // Filter function
                 $scope.filterByCssClass = function (package) {
