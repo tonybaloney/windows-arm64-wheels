@@ -114,6 +114,7 @@
             $http.get('results.json').then(function (res) {
                 $scope.last_update = res.data.last_update;
                 $scope.packages = res.data.data;
+                $scope.selectedFilter = ''; // Default to All
 
                 // Define filters
                 $scope.filters = [
@@ -122,7 +123,6 @@
                     { value: 'default', label: 'Uncoloured (Pure-Python Wheels)' },
                     { value: 'warning', label: 'Orange (No Wheels Yet)' }
                 ];
-                $scope.selectedFilter = ''; // Default to All
 
                 // Filter function
                 $scope.filterByCssClass = function (package) {
