@@ -418,7 +418,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921246.379374
+   "wheel_enabled": 0
   },
   {
    "downloads": 201011115,
@@ -818,7 +818,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921247.104142
+   "wheel_enabled": 0
   },
   {
    "downloads": 127043157,
@@ -1558,7 +1558,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921248.301211
+   "wheel_enabled": 0
   },
   {
    "downloads": 72671717,
@@ -1698,7 +1698,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921248.490227
+   "wheel_enabled": 0
   },
   {
    "downloads": 66912207,
@@ -1828,7 +1828,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921248.681403
+   "wheel_enabled": 0
   },
   {
    "downloads": 60551414,
@@ -2438,7 +2438,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921249.418812
+   "wheel_enabled": 0
   },
   {
    "downloads": 44836912,
@@ -2503,12 +2503,12 @@
   {
    "downloads": 43336227,
    "name": "orjson",
-   "wheel": false,
+   "wheel": true,
    "value": 1,
-   "css_class": "warning",
-   "icon": "\u2717",
-   "title": "This package has no wheel archives uploaded (yet!).",
-   "wheel_enabled": 0
+   "css_class": "success",
+   "icon": "\ud83d\udcaa",
+   "title": "This package provides a free-threaded wheel.",
+   "wheel_enabled": 1746007669.265667
   },
   {
    "downloads": 42554096,
@@ -2538,7 +2538,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921249.657446
+   "wheel_enabled": 0
   },
   {
    "downloads": 41694529,
@@ -2918,7 +2918,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921250.164252
+   "wheel_enabled": 0
   },
   {
    "downloads": 34524146,
@@ -3395,10 +3395,10 @@
    "name": "uv",
    "wheel": true,
    "value": 1,
-   "css_class": "success",
-   "icon": "\ud83d\udcaa",
-   "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921250.735781
+   "css_class": "default",
+   "icon": "\ud83d\udc0d",
+   "title": "This package provides pure Python wheels.",
+   "wheel_enabled": 0
   },
   {
    "downloads": 28723221,
@@ -3948,7 +3948,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921251.43088
+   "wheel_enabled": 0
   },
   {
    "downloads": 23547051,
@@ -3998,7 +3998,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921251.491343
+   "wheel_enabled": 0
   },
   {
    "downloads": 23315143,
@@ -4588,7 +4588,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921252.151555
+   "wheel_enabled": 0
   },
   {
    "downloads": 19745980,
@@ -6128,7 +6128,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921253.93155
+   "wheel_enabled": 0
   },
   {
    "downloads": 13876300,
@@ -6288,7 +6288,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921254.148775
+   "wheel_enabled": 0
   },
   {
    "downloads": 13227147,
@@ -6668,7 +6668,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921254.918958
+   "wheel_enabled": 0
   },
   {
    "downloads": 11878882,
@@ -7198,7 +7198,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921255.559408
+   "wheel_enabled": 0
   },
   {
    "downloads": 10198553,
@@ -7218,7 +7218,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921255.601661
+   "wheel_enabled": 0
   },
   {
    "downloads": 10138648,
@@ -7418,7 +7418,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921255.823889
+   "wheel_enabled": 0
   },
   {
    "downloads": 9673792,
@@ -7488,7 +7488,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921255.899501
+   "wheel_enabled": 0
   },
   {
    "downloads": 9520494,
@@ -7568,7 +7568,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921255.998186
+   "wheel_enabled": 0
   },
   {
    "downloads": 9364310,
@@ -7975,10 +7975,10 @@
    "name": "playwright",
    "wheel": true,
    "value": 1,
-   "css_class": "default",
-   "icon": "\ud83d\udc0d",
-   "title": "This package provides pure Python wheels.",
-   "wheel_enabled": 0
+   "css_class": "success",
+   "icon": "\ud83d\udcaa",
+   "title": "This package provides a free-threaded wheel.",
+   "wheel_enabled": 1746007674.953351
   },
   {
    "downloads": 8320853,
@@ -9118,7 +9118,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921257.850097
+   "wheel_enabled": 0
   },
   {
    "downloads": 6362231,
@@ -9413,11 +9413,11 @@
   {
    "downloads": 6035782,
    "name": "litellm",
-   "wheel": false,
+   "wheel": true,
    "value": 1,
-   "css_class": "warning",
-   "icon": "\u2717",
-   "title": "This package has no wheel archives uploaded (yet!).",
+   "css_class": "default",
+   "icon": "\ud83d\udc0d",
+   "title": "This package provides pure Python wheels.",
    "wheel_enabled": 0
   },
   {
@@ -9958,7 +9958,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1745921258.814225
+   "wheel_enabled": 0
   },
   {
    "downloads": 5552014,
@@ -10001,5 +10001,5 @@
    "wheel_enabled": 0
   }
  ],
- "last_update": "Tuesday, 29 April 2025, 10:07:38 UTC"
+ "last_update": "Wednesday, 30 April 2025, 10:07:56 UTC"
 }
