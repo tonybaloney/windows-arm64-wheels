@@ -78,7 +78,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212577.282399
   },
   {
    "downloads": 882738619,
@@ -148,7 +148,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212577.378309
   },
   {
    "downloads": 654270150,
@@ -168,7 +168,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126044.091132
+   "wheel_enabled": 0
   },
   {
    "downloads": 575522250,
@@ -178,7 +178,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212577.432418
   },
   {
    "downloads": 572328273,
@@ -218,7 +218,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126044.170186
+   "wheel_enabled": 0
   },
   {
    "downloads": 496982669,
@@ -298,7 +298,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212577.72164
   },
   {
    "downloads": 429453870,
@@ -318,7 +318,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212577.750125
   },
   {
    "downloads": 405894294,
@@ -638,7 +638,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126044.877789
+   "wheel_enabled": 0
   },
   {
    "downloads": 270787755,
@@ -658,7 +658,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212578.238589
   },
   {
    "downloads": 264868044,
@@ -718,7 +718,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212578.318361
   },
   {
    "downloads": 261520701,
@@ -758,17 +758,17 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126045.284968
+   "wheel_enabled": 0
   },
   {
    "downloads": 256673318,
    "name": "tomli",
    "wheel": true,
    "value": 1,
-   "css_class": "default",
-   "icon": "\ud83d\udc0d",
-   "title": "This package provides pure Python wheels.",
-   "wheel_enabled": 0
+   "css_class": "success",
+   "icon": "\ud83d\udcaa",
+   "title": "This package provides a free-threaded wheel.",
+   "wheel_enabled": 1768212578.543329
   },
   {
    "downloads": 254155264,
@@ -778,7 +778,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212578.561773
   },
   {
    "downloads": 250405215,
@@ -848,7 +848,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126045.466808
+   "wheel_enabled": 0
   },
   {
    "downloads": 242047559,
@@ -858,7 +858,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126045.517519
+   "wheel_enabled": 0
   },
   {
    "downloads": 241764532,
@@ -888,7 +888,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212578.777377
   },
   {
    "downloads": 239159451,
@@ -898,7 +898,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212578.796393
   },
   {
    "downloads": 236116015,
@@ -1028,7 +1028,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126045.733964
+   "wheel_enabled": 0
   },
   {
    "downloads": 208013282,
@@ -1178,7 +1178,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212579.074306
   },
   {
    "downloads": 172906508,
@@ -1228,7 +1228,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126045.944099
+   "wheel_enabled": 0
   },
   {
    "downloads": 167534594,
@@ -1318,7 +1318,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126046.033361
+   "wheel_enabled": 0
   },
   {
    "downloads": 157460031,
@@ -1358,7 +1358,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212579.233204
   },
   {
    "downloads": 150311411,
@@ -1398,7 +1398,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126046.168338
+   "wheel_enabled": 0
   },
   {
    "downloads": 147266860,
@@ -1498,7 +1498,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212579.42991
   },
   {
    "downloads": 134860429,
@@ -1628,7 +1628,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212579.536453
   },
   {
    "downloads": 120722905,
@@ -1838,7 +1838,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212579.765929
   },
   {
    "downloads": 108465081,
@@ -1848,7 +1848,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212579.782739
   },
   {
    "downloads": 108455515,
@@ -1898,7 +1898,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212579.88291
   },
   {
    "downloads": 106328137,
@@ -2028,7 +2028,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126046.906897
+   "wheel_enabled": 0
   },
   {
    "downloads": 101408714,
@@ -2108,7 +2108,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126046.984387
+   "wheel_enabled": 0
   },
   {
    "downloads": 99218170,
@@ -2138,7 +2138,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212580.203923
   },
   {
    "downloads": 98538671,
@@ -2188,7 +2188,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212580.30014
   },
   {
    "downloads": 96170069,
@@ -2208,7 +2208,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126047.246773
+   "wheel_enabled": 0
   },
   {
    "downloads": 95470304,
@@ -2268,7 +2268,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212580.388212
   },
   {
    "downloads": 93174268,
@@ -2358,7 +2358,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126047.415645
+   "wheel_enabled": 0
   },
   {
    "downloads": 88261671,
@@ -2378,7 +2378,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126047.435571
+   "wheel_enabled": 0
   },
   {
    "downloads": 87833940,
@@ -2418,7 +2418,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126047.473812
+   "wheel_enabled": 0
   },
   {
    "downloads": 86333788,
@@ -2518,7 +2518,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212580.669043
   },
   {
    "downloads": 83392785,
@@ -2718,7 +2718,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212580.84137
   },
   {
    "downloads": 73507043,
@@ -2728,7 +2728,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126047.835358
+   "wheel_enabled": 0
   },
   {
    "downloads": 73220759,
@@ -3088,7 +3088,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126048.180277
+   "wheel_enabled": 0
   },
   {
    "downloads": 64641303,
@@ -3298,7 +3298,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212581.468383
   },
   {
    "downloads": 60193966,
@@ -3418,7 +3418,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212581.572423
   },
   {
    "downloads": 57080190,
@@ -3768,7 +3768,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212581.878721
   },
   {
    "downloads": 50819606,
@@ -3938,7 +3938,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126048.986759
+   "wheel_enabled": 0
   },
   {
    "downloads": 47203110,
@@ -4088,7 +4088,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126049.161334
+   "wheel_enabled": 0
   },
   {
    "downloads": 44513260,
@@ -4288,7 +4288,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212582.468508
   },
   {
    "downloads": 41897255,
@@ -5398,7 +5398,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212583.508002
   },
   {
    "downloads": 31710186,
@@ -5408,7 +5408,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126050.388293
+   "wheel_enabled": 0
   },
   {
    "downloads": 31525554,
@@ -5688,7 +5688,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212583.80969
   },
   {
    "downloads": 29164949,
@@ -5708,7 +5708,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126050.674595
+   "wheel_enabled": 0
   },
   {
    "downloads": 28817397,
@@ -5768,7 +5768,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212583.916196
   },
   {
    "downloads": 28305605,
@@ -5798,7 +5798,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126050.789281
+   "wheel_enabled": 0
   },
   {
    "downloads": 28255299,
@@ -5808,7 +5808,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126050.804954
+   "wheel_enabled": 0
   },
   {
    "downloads": 28068983,
@@ -6028,7 +6028,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212584.169545
   },
   {
    "downloads": 26228560,
@@ -6458,7 +6458,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126051.401621
+   "wheel_enabled": 0
   },
   {
    "downloads": 23792388,
@@ -6498,7 +6498,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212584.579324
   },
   {
    "downloads": 23681817,
@@ -6568,7 +6568,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212584.646876
   },
   {
    "downloads": 23416080,
@@ -6718,7 +6718,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212584.772433
   },
   {
    "downloads": 22368142,
@@ -6808,7 +6808,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212584.888169
   },
   {
    "downloads": 21835675,
@@ -7148,7 +7148,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212585.22182
   },
   {
    "downloads": 20295803,
@@ -7178,7 +7178,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126052.694224
+   "wheel_enabled": 0
   },
   {
    "downloads": 20167199,
@@ -7278,7 +7278,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126052.80741
+   "wheel_enabled": 0
   },
   {
    "downloads": 19705611,
@@ -7368,7 +7368,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212585.752372
   },
   {
    "downloads": 19512504,
@@ -7408,7 +7408,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212585.795086
   },
   {
    "downloads": 19380528,
@@ -7448,7 +7448,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126052.958758
+   "wheel_enabled": 0
   },
   {
    "downloads": 19154668,
@@ -7488,7 +7488,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126053.031045
+   "wheel_enabled": 0
   },
   {
    "downloads": 19079631,
@@ -7528,7 +7528,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212585.983546
   },
   {
    "downloads": 18941667,
@@ -7568,7 +7568,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212586.057693
   },
   {
    "downloads": 18716440,
@@ -7658,7 +7658,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126053.205206
+   "wheel_enabled": 0
   },
   {
    "downloads": 18445708,
@@ -7668,7 +7668,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126053.219278
+   "wheel_enabled": 0
   },
   {
    "downloads": 18368724,
@@ -7768,7 +7768,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126053.333346
+   "wheel_enabled": 0
   },
   {
    "downloads": 18011996,
@@ -7778,7 +7778,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212586.306257
   },
   {
    "downloads": 17966542,
@@ -7968,7 +7968,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126053.48857
+   "wheel_enabled": 0
   },
   {
    "downloads": 17328177,
@@ -8018,7 +8018,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212586.544945
   },
   {
    "downloads": 17154021,
@@ -8098,7 +8098,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212586.627193
   },
   {
    "downloads": 16809321,
@@ -8358,7 +8358,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212586.823724
   },
   {
    "downloads": 16000103,
@@ -8498,7 +8498,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212586.956935
   },
   {
    "downloads": 15548857,
@@ -8518,7 +8518,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212586.981419
   },
   {
    "downloads": 15478816,
@@ -8568,7 +8568,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126054.006811
+   "wheel_enabled": 0
   },
   {
    "downloads": 15306729,
@@ -8648,7 +8648,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212587.086677
   },
   {
    "downloads": 15036840,
@@ -8718,7 +8718,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212587.183992
   },
   {
    "downloads": 14746798,
@@ -8918,7 +8918,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212587.356754
   },
   {
    "downloads": 14277805,
@@ -9148,7 +9148,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212587.536531
   },
   {
    "downloads": 13550280,
@@ -9328,7 +9328,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 0
+   "wheel_enabled": 1768212587.739277
   },
   {
    "downloads": 12951773,
@@ -9388,7 +9388,7 @@
    "css_class": "success",
    "icon": "\ud83d\udcaa",
    "title": "This package provides a free-threaded wheel.",
-   "wheel_enabled": 1768126054.684963
+   "wheel_enabled": 0
   },
   {
    "downloads": 12754704,
@@ -10001,5 +10001,5 @@
    "wheel_enabled": 0
   }
  ],
- "last_update": "Sunday, 11 January 2026, 10:07:35 UTC"
+ "last_update": "Monday, 12 January 2026, 10:09:48 UTC"
 }
