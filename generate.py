@@ -1,10 +1,12 @@
 from svg_wheel import generate_svg_wheel
 from utils import (
     annotate_wheels,
+    fetch_deployed_result,
     get_top_packages,
+    get_package_wheel_status,
+    load_history,
     remove_irrelevant_packages,
     save_to_file,
-    fetch_old_result,
 )
 
 TO_CHART = 1000
@@ -12,13 +14,16 @@ TO_CHART = 1000
 
 def main(to_chart: int = TO_CHART) -> None:
     # Fetch current status
-    old_packages = fetch_old_result()
-    if old_packages is None:
-        print(" ! Skipping old packages")
-        old_packages = {}
+    deployed_result = fetch_deployed_result()
+    if deployed_result is None:
+        raise RuntimeError(
+            "Could not fetch the deployed results; refusing to discard wheel history"
+        )
+    old_packages = get_package_wheel_status(deployed_result)
+    history = load_history(deployed_result)
     packages = remove_irrelevant_packages(get_top_packages(), to_chart)
     annotate_wheels(packages, old_packages)
-    save_to_file(packages, "results.json")
+    save_to_file(packages, "results.json", history)
     generate_svg_wheel(packages, to_chart)
 
 

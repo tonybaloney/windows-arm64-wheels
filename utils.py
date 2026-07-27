@@ -5,6 +5,12 @@ import requests_cache
 
 
 BASE_URL = "https://pypi.org/pypi"
+HISTORY_FILE = "history.json"
+HISTORY_PACKAGE_TOTAL = 1000
+DEPLOYED_RESULTS_URL = (
+    "https://github.com/tonybaloney/windows-arm64-wheels/raw/refs/heads/gh-pages/"
+    "results.json"
+)
 
 DEPRECATED_PACKAGES = {
     "BeautifulSoup",
@@ -26,14 +32,83 @@ def get_json_url(package_name):
     return BASE_URL + "/" + package_name + "/json"
 
 
-def fetch_old_result():
-    url = "https://github.com/tonybaloney/windows-arm64-wheels/raw/refs/heads/gh-pages/results.json"
-    response = SESSION.get(url)
+def fetch_deployed_result():
+    response = SESSION.get(DEPLOYED_RESULTS_URL)
     if response.status_code != 200:
-        print(" ! Skipping " + url)
+        print(" ! Skipping " + DEPLOYED_RESULTS_URL)
         return None
-    data = response.json()
-    return {d["name"]: int(d.get("wheel_enabled", 0)) for d in data["data"]}
+    return response.json()
+
+
+def get_package_wheel_status(result):
+    if result is None:
+        return {}
+    return {d["name"]: int(d.get("wheel_enabled", 0)) for d in result["data"]}
+
+
+def fetch_old_result():
+    result = fetch_deployed_result()
+    if result is None:
+        return None
+    return get_package_wheel_status(result)
+
+
+def validate_history(history):
+    if not isinstance(history, list):
+        raise ValueError("Wheel history must be a list")
+
+    validated = []
+    for point in history:
+        if not isinstance(point, dict):
+            raise ValueError("Each wheel history point must be an object")
+
+        date = point.get("date")
+        unsupported = point.get("unsupported")
+        total = point.get("total")
+        try:
+            datetime.date.fromisoformat(date)
+        except (TypeError, ValueError) as error:
+            raise ValueError(f"Invalid wheel history date: {date!r}") from error
+
+        if (
+            not isinstance(unsupported, int)
+            or isinstance(unsupported, bool)
+            or not isinstance(total, int)
+            or isinstance(total, bool)
+            or unsupported < 0
+            or total < 0
+            or unsupported > total
+        ):
+            raise ValueError(f"Invalid wheel history counts for {date}")
+
+        validated.append({"date": date, "unsupported": unsupported, "total": total})
+
+    return validated
+
+
+def load_history(deployed_result, file_name=HISTORY_FILE):
+    if deployed_result is not None and "history" in deployed_result:
+        history = deployed_result["history"]
+    else:
+        with open(file_name) as history_file:
+            history = json.load(history_file)
+
+    return [
+        point
+        for point in validate_history(history)
+        if point["total"] == HISTORY_PACKAGE_TOTAL
+    ]
+
+
+def update_history(history, packages, now):
+    point = {
+        "date": now.date().isoformat(),
+        "unsupported": sum(package["css_class"] == "warning" for package in packages),
+        "total": len(packages),
+    }
+    by_date = {item["date"]: item for item in validate_history(history)}
+    by_date[point["date"]] = point
+    return [by_date[date] for date in sorted(by_date)]
 
 
 def annotate_wheels(packages, old_packages):
@@ -115,15 +190,14 @@ def remove_irrelevant_packages(packages, limit):
     return active_packages[:limit]
 
 
-def save_to_file(packages, file_name):
+def save_to_file(packages, file_name, history=None):
     now = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
+    result = {
+        "data": packages,
+        "last_update": now.strftime("%A, %d %B %Y, %X %Z"),
+    }
+    if history is not None:
+        result["history"] = update_history(history, packages, now)
+
     with open(file_name, "w") as f:
-        f.write(
-            json.dumps(
-                {
-                    "data": packages,
-                    "last_update": now.strftime("%A, %d %B %Y, %X %Z"),
-                },
-                indent=1,
-            )
-        )
+        f.write(json.dumps(result, indent=1))
